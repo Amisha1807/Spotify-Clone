@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Splash&display=swap');
+body
+{
+    background-color: white;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Abril Fatface', cursive;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    background-color: black;
+    color: azure;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img
+{   
+    padding: 0 8px;
+    width: 41px;
+}
+.c1
+{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    background: url(background.jpg) no-repeat;
+}
+.c3
+{
+    position: sticky;
+    height: 111px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    
+}
+#mybar
+{
+    width: 800px;
+    text-align: center;
+    cursor: pointer;
+}
+.icons
+{
+    margin-top: 14px;
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 50px;
+}
+.songitem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    text-align: center;
+    color: black;
+    margin: 12px 0;
+    left: 0;
+    justify-content: space-between;
+    border-radius: 12px;
+    padding-left: 10px;
+    
+   
+}
+.songitem img{
+    border-radius: 12px;
+}
+.songdisplay i{
+    cursor: pointer;
+}
+.songinfo
+{   
+    position: absolute;
+    left: 5vw;
+}
